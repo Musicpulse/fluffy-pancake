@@ -1,5 +1,5 @@
 FROM centos:7
-WORKDIR /pepper
+WORKDIR /httpd
 RUN yum -y update
 RUN yum install -y httpd httpd-tools
 RUN yum clean all
